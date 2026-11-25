@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>サンクスページ ワイヤーフレーム</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<style>
+body{margin:0;font-family:"Noto Sans JP",system-ui,sans-serif;color:#111;background:#fff}
+a{color:#111}a:hover{color:#444}
+button{font-family:inherit}
+</style>
+<style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+<div style="width: 100%; background: #fff; color: #111; font-family: 'Noto Sans JP', system-ui, sans-serif; line-height: 1.7">
+
+<section style="background: #fff; padding: 48px 16px 40px">
+<div style="max-width: 1040px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 28px">
+
+<div style="width: 100%; box-sizing: border-box; border: 1px solid #111; border-top: 4px solid #111; background: #f4f4f4; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px 20px">
+<svg aria-hidden="true" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 11v6"></path><path d="M12 7v.5"></path></svg>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<p style="margin: 0; font-size: 13px; font-weight: 700; color: #555; letter-spacing: 0.08em">ご案内</p>
+<p style="margin: 0; font-size: 20px; font-weight: 700">ご予約はまだ確定しておりません。</p>
+<p style="margin: 0; font-size: 15px; color: #333">お手数ですが、このページを閉じずにお進みください。</p>
+</div>
+</div>
+
+<div style="width: 100%; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
+<h1 style="margin: 0; font-size: 28px; font-weight: 700; letter-spacing: 0.02em; line-height: 1.5">お問い合わせいただき、ありがとうございます。</h1>
+<p style="margin: 0; font-size: 18px; font-weight: 700">続けて、ご希望の日程をお選びください。</p>
+<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 9 7 7 7-7"></path></svg>
+</div>
+
+</div>
+</section>
+
+<section id="schedule" style="background: #ececec; padding: 48px 16px 56px">
+<div style="max-width: 1040px; margin: 0 auto; border: 2px solid #111; border-radius: 12px; overflow: hidden; background: #fff">
+
+<div style="background: #111; color: #fff; padding: 16px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px 14px; text-align: center">
+<svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></svg>
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.1em; border: 1px solid #fff; padding: 0 10px; border-radius: 4px">STEP 2</span>
+<h2 style="margin: 0; font-size: 24px; font-weight: 700; line-height: 1.4">日程を予約する</h2>
+</div>
+
+<div style="max-width: 720px; margin: 0 auto; box-sizing: border-box; padding: 28px 20px 32px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 15px; color: #333; text-align: center">空いている日時を1つ選んでください（60分・Google Meet・完全無料）</p>
+
+<div style="border: 1px solid #111; border-radius: 12px; background: #f4f4f4; padding: 14px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px">
+<div id="dates" style="display: contents"></div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+<div id="times" style="display: contents"></div>
+</div>
+</div>
+
+<a href="#schedule" style="align-self: center; min-height: 44px; display: inline-flex; align-items: center; font-size: 15px; font-weight: 700; color: #111">ご都合の合う日時がない方はこちら</a>
+
+<button type="button" style="min-height: 60px; border: 0; border-radius: 8px; background: #111; color: #fff; font-size: 18px; font-weight: 700; cursor: pointer">この日時で予約を確定する</button>
+<p style="margin: 0; font-size: 13px; color: #555; text-align: center">予約確定後、Google Calendarの招待メールをお送りします。</p>
+</div>
+
+</div>
+</section>
+
+<section style="background: #fff; padding: 56px 16px 0">
+<div style="max-width: 1040px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 20px">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center">
+<h2 style="margin: 0; font-size: 22px; font-weight: 700; letter-spacing: 0.02em">当日お伝えできること</h2>
+<span aria-hidden="true" style="display: block; width: 48px; height: 3px; background: #111"></span>
+</div>
+<ol style="margin: 0; padding: 0; list-style: none; width: 100%; display: flex; flex-direction: column; gap: 12px">
+<li style="border: 1px solid #111; padding: 16px 20px; display: flex; align-items: center; gap: 16px">
+<span style="flex: 0 0 auto; width: 36px; height: 36px; border-radius: 50%; background: #111; color: #fff; font-size: 16px; font-weight: 700; display: flex; align-items: center; justify-content: center">1</span>
+<span style="font-size: 17px; font-weight: 700; line-height: 1.5">同業他社での活用事例</span>
+</li>
+<li style="border: 1px solid #111; padding: 16px 20px; display: flex; align-items: center; gap: 16px">
+<span style="flex: 0 0 auto; width: 36px; height: 36px; border-radius: 50%; background: #111; color: #fff; font-size: 16px; font-weight: 700; display: flex; align-items: center; justify-content: center">2</span>
+<span style="font-size: 17px; font-weight: 700; line-height: 1.5">貴事務所でAI社員に任せられる業務</span>
+</li>
+<li style="border: 1px solid #111; padding: 16px 20px; display: flex; align-items: center; gap: 16px">
+<span style="flex: 0 0 auto; width: 36px; height: 36px; border-radius: 50%; background: #111; color: #fff; font-size: 16px; font-weight: 700; display: flex; align-items: center; justify-content: center">3</span>
+<span style="font-size: 17px; font-weight: 700; line-height: 1.5">AIKATAのサービス説明</span>
+</li>
+</ol>
+</div>
+</section>
+
+<section style="background: #fff; padding: 48px 16px 56px">
+<div style="max-width: 1040px; margin: 0 auto; box-sizing: border-box; border: 2px solid #111; padding: 32px 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 32px 48px">
+
+<div style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; align-self: flex-start; background: #111; color: #fff; padding: 1px 12px">さらに</p>
+<h2 style="margin: 0; font-size: 24px; font-weight: 700; line-height: 1.5">当日は、貴事務所専用のシミュレーションも無料で作成します。</h2>
+<p style="margin: 0; font-size: 15px; color: #333">他の事務所の導入事例もお見せしながら、貴事務所ならどこまでAI社員に任せられるのかを整理してお渡しします。</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px">
+<li style="display: flex; align-items: flex-start; gap: 10px; font-size: 15px">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex: 0 0 auto; margin-top: 4px"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg>
+<span>どの業務をAI社員に任せられるか</span>
+</li>
+<li style="display: flex; align-items: flex-start; gap: 10px; font-size: 15px">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex: 0 0 auto; margin-top: 4px"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg>
+<span>職員何名分の作業量にあたるか</span>
+</li>
+<li style="display: flex; align-items: flex-start; gap: 10px; font-size: 15px">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex: 0 0 auto; margin-top: 4px"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg>
+<span>毎月の費用はいくらになるか</span>
+</li>
+</ul>
+</div>
+
+<div style="flex: 1 1 380px; min-width: 0; border: 1px solid #111; background: #fff; border-radius: 8px; overflow: hidden">
+<div style="background: #111; color: #fff; padding: 10px 18px; font-size: 16px; font-weight: 700">シミュレーション結果（例）</div>
+<div style="padding: 6px 18px 18px; display: flex; flex-direction: column">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 0; border-bottom: 1px solid #cfcfcf">
+<span style="font-size: 16px; font-weight: 700">給与計算</span>
+<span style="flex: 0 0 auto; background: #111; color: #fff; font-size: 13px; font-weight: 700; padding: 3px 12px">任せられる</span>
+</div>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 0; border-bottom: 1px solid #cfcfcf">
+<span style="font-size: 16px; font-weight: 700">年末調整</span>
+<span style="flex: 0 0 auto; background: #111; color: #fff; font-size: 13px; font-weight: 700; padding: 3px 12px">任せられる</span>
+</div>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 0; border-bottom: 1px solid #cfcfcf">
+<span style="font-size: 16px; font-weight: 700">入退社手続きの下準備</span>
+<span style="flex: 0 0 auto; background: #111; color: #fff; font-size: 13px; font-weight: 700; padding: 3px 12px">任せられる</span>
+</div>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 0; border-bottom: 1px solid #cfcfcf">
+<span style="font-size: 16px; font-weight: 700">行政への提出・最終確認</span>
+<span style="flex: 0 0 auto; background: #fff; color: #333; border: 1px solid #555; font-size: 13px; font-weight: 700; padding: 2px 11px">先生が行う</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding-top: 14px">
+<div style="background: #ececec; padding: 12px 8px; text-align: center; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 13px; font-weight: 700">任せられる量</span>
+<span style="font-size: 16px; font-weight: 700">職員<span style="font-size: 32px; font-weight: 900; line-height: 1.2"> 3 </span>名分</span>
+</div>
+<div style="background: #ececec; padding: 12px 8px; text-align: center; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 13px; font-weight: 700">毎月の費用</span>
+<span style="font-size: 16px; font-weight: 700">月<span style="font-size: 32px; font-weight: 900; line-height: 1.2"> 10 </span>万円</span>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section style="background: #ececec; padding: 48px 16px 64px">
+<div style="max-width: 1040px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 24px">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center">
+<h2 style="margin: 0; font-size: 22px; font-weight: 700; letter-spacing: 0.02em">ご予約後の流れ</h2>
+<span aria-hidden="true" style="display: block; width: 48px; height: 3px; background: #111"></span>
+</div>
+<ol style="margin: 0; padding: 0; list-style: none; width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+<li style="border: 1px solid #111; background: #fff; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 700; color: #555; letter-spacing: 0.08em">1</span>
+<span style="font-size: 16px; font-weight: 700">日程を選んで予約を確定</span>
+<span style="font-size: 14px; color: #333">上の枠からご希望の日時を1つお選びください。</span>
+</li>
+<li style="border: 1px solid #111; background: #fff; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 700; color: #555; letter-spacing: 0.08em">2</span>
+<span style="font-size: 16px; font-weight: 700">招待メールが届きます</span>
+<span style="font-size: 14px; color: #333">Google Calendarの招待メールに、当日のGoogle MeetのURLが入っています。</span>
+</li>
+<li style="border: 1px solid #111; background: #fff; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 700; color: #555; letter-spacing: 0.08em">3</span>
+<span style="font-size: 16px; font-weight: 700">当日、オンラインでご相談（60分）</span>
+<span style="font-size: 14px; color: #333">導入事例をお見せしながら、貴事務所のシミュレーションを作成します。</span>
+</li>
+</ol>
+<a href="#schedule" style="margin-top: 16px; display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 60px; padding: 0 40px; background: #111; color: #fff; font-size: 18px; font-weight: 700; text-decoration: none; border-radius: 8px; width: 100%; max-width: 400px; box-sizing: border-box">
+<span>日程を予約する</span>
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"></path><path d="m6 11 6-6 6 6"></path></svg>
+</a>
+<p style="margin: 0; font-size: 13px; color: #555; text-align: center">ページ上部の日程選択に戻ります。</p>
+</div>
+</section>
+
+<footer style="background: #111; color: #fff; padding: 20px 16px">
+<div style="max-width: 1040px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: center; align-items: center; font-size: 13px">
+<span>株式会社GENAI</span>
+<a href="https://aikanri.genai-ai.co.jp/privacy/" style="color: #fff; min-height: 44px; display: inline-flex; align-items: center">プライバシーポリシー</a>
+</div>
+</footer>
+
+</div>
+<script>
+(function(){
+var dates=[['11/26','木'],['11/27','金'],['11/28','土'],['11/29','日'],['11/30','月'],['12/1','火']];
+var times=['10:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00'];
+var di=0,ti=-1;
+var dOn='width:100%;min-height:60px;border:2px solid #111;border-radius:10px;background:#111;color:#fff;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4px 0';
+var dOff='width:100%;min-height:60px;border:1px solid #8a8a8a;border-radius:10px;background:#fff;color:#111;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4px 0';
+var tOn='width:100%;min-height:48px;border:2px solid #111;border-radius:8px;background:#111;color:#fff;font-size:17px;font-weight:700;cursor:pointer';
+var tOff='width:100%;min-height:48px;border:1px solid #8a8a8a;border-radius:8px;background:#fff;color:#111;font-size:17px;font-weight:700;cursor:pointer';
+function render(){
+var dEl=document.getElementById('dates'),tEl=document.getElementById('times');
+dEl.textContent='';tEl.textContent='';
+dates.forEach(function(d,i){
+var w=document.createElement('div');w.style.cssText='flex:1 0 76px';
+var b=document.createElement('button');b.type='button';b.setAttribute('aria-pressed',i===di?'true':'false');b.style.cssText=i===di?dOn:dOff;
+var s1=document.createElement('span');s1.style.cssText='font-size:17px;font-weight:700;line-height:1.3';s1.textContent=d[0];
+var s2=document.createElement('span');s2.style.cssText='font-size:13px;font-weight:700;line-height:1.3';s2.textContent=d[1];
+b.appendChild(s1);b.appendChild(s2);b.addEventListener('click',function(){di=i;ti=-1;render();});
+w.appendChild(b);dEl.appendChild(w);});
+times.forEach(function(t,i){
+var w=document.createElement('div');
+var b=document.createElement('button');b.type='button';b.setAttribute('aria-pressed',i===ti?'true':'false');b.style.cssText=i===ti?tOn:tOff;b.textContent=t;
+b.addEventListener('click',function(){ti=i;render();});
+w.appendChild(b);tEl.appendChild(w);});
+}
+render();
+})();
+</script>
+</body>
+</html>
